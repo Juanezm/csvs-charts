@@ -82,7 +82,6 @@ jobs:
           rm helm-docs
 
       - uses: juanezm/publish-to-github-action@master
-        with:
-          COMMIT_MSG: "Update chart documentation"
         env:
+          COMMIT_MSG: "Update chart documentation"
           GITHUB_TOKEN: ${{ secrets.CR_TOKEN }}
