@@ -81,6 +81,8 @@ jobs:
           ./helm-docs
           rm helm-docs
 
-      - uses: mikeal/publish-to-github-action@master
+      - uses: juanezm/publish-to-github-action@master
+        with:
+          COMMIT_MSG: "Update chart documentation"
         env:
           GITHUB_TOKEN: ${{ secrets.CR_TOKEN }}
