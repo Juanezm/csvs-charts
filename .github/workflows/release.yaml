@@ -56,6 +56,8 @@ jobs:
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@master
+        with:
+          charts_repo_url: https://juanezm.github.io/csvs-charts
         env:
           CR_TOKEN: "${{ secrets.CR_TOKEN }}"
 
