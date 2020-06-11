@@ -17,6 +17,20 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.1"
+    created: "2020-06-11T11:13:35.819942446Z"
+    description: A Helm chart for Kubernetes
+    digest: 8948fbd703797afc19f32e64146d9bcaa9374ecce14f6f321f1078e3086f0553
+    home: http://geoserver.org/
+    maintainers:
+    - email: davide.delerma@sa.catapult.org.uk
+      name: SatelliteApplicationsCatapult
+    name: geoserver
+    type: application
+    urls:
+    - https://github.com/Juanezm/csvs-charts/releases/download/geoserver-0.1.1/geoserver-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: "1.1"
     created: "2020-06-11T10:20:02.000589693Z"
     description: A Helm chart for Kubernetes
     digest: ab2f78c2ac52c5f2b54f700c77090c1bfbc822b703b359e9372dd02ba6784316
