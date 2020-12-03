@@ -1,8 +1,8 @@
 geoserver
 =========
-A Helm chart for Kubernetes
+A Helm chart for Kubernetess
 
-Current chart version is `0.1.1`
+Current chart version is `0.1.2`
 
 Source code can be found [here](http://geoserver.org/)
 
